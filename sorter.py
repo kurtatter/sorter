@@ -117,8 +117,8 @@ def main():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-e", "--extension", action="store_true")
-    parser.add_argument("-u", "--undo", help="undo last operation", action="store_true")
+    parser.add_argument("-e", "--extension", action="store_true", help="Sort files by extension")
+    parser.add_argument("-u", "--undo", help="Undo the last action", action="store_true")
 
     args = parser.parse_args()
 
