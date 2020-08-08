@@ -16,7 +16,7 @@
 python3 sorter.py -e
 ```
 
-![](/home/sam/love/sorter/final/sorter/gifs/sorter_e.gif)
+![](gifs/sorter_e.gif)
 
 ---
 
@@ -26,7 +26,7 @@ python3 sorter.py -e
 python3 sorter.py -u
 ```
 
-![](/home/sam/love/sorter/final/sorter/gifs/sorter_u.gif)
+![](gifs/sorter_u.gif)
 
 ---
 
