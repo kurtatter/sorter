@@ -5,13 +5,6 @@ import shutil
 import logging
 import argparse
 
-# вывод списка с именами файлов и папок 
-# в текущей директории
-# !Я пока что не знаю от отличить по названию
-# !это папка или просто файл без разширения
-# 
-# os.listdir()
-
 
 LOG_NAME = 'last_change.log'
 
@@ -130,19 +123,6 @@ def main():
         print("OOOOPS!")
 
 
-
-    # make folders
-#    for i in get_folder_names(listdir):
-#        if not os.path.isdir(i) and i != 'log':
-#            os.mkdir(i)
-
-    # move files to folders
-#    for i in get_files(listdir):
-#        if i != os.path.basename(__file__) and i.split('.')[-1] != 'log':
-#            shutil.move(i, i.split('.')[-1])
-#            logging.info("{0}---{1}---{2}".format(i, now_dir, os.path.abspath(i.split('.')[-1]+'/'+i)))
-#    for i in os.walk('.'):
-#        print(i)
 
 if __name__ == '__main__':
     main()
